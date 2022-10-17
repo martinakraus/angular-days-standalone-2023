@@ -3,7 +3,7 @@
 2. Make the `AppComponent` standalone by adding the attribute `standalone` to the Components Decorator.
 3. Use the `bootstrapApplication`-Function to initialize your Angular Application (don't forget to remove the old API `bootstrapModule()`).
 4. Now you are save to remove the `AppModule` and deleting the file.
-5. Create another standalone Component by running the CLI command `ng generate component book --standalone` and import it inside the `AppComponent`
+5. Create another standalone Component by running the CLI command `ng generate component home --standalone` and import it inside the `AppComponent`
 
 ## Hints
 
@@ -19,7 +19,7 @@ bootstrapApplication(AppComponent)
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [BookComponent]
+  imports: [HomeComponent]
   // ...
 })
 export class AppComponent {}
