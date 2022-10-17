@@ -31,15 +31,6 @@ bootstrapApplication(AppComponent, {
     provideRouter(APP_ROUTES)
   ]
 }).catch(err => console.error(err));
-
-// app.component.ts
-@Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [HomeComponent]
-  // ...
-})
-export class AppComponent {}
 ```
 
 ```html
