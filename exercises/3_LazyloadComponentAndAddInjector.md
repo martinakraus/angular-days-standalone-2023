@@ -12,7 +12,7 @@ If you want you can add the `HttpClient` to your `BookApiService` by fetching bo
 1. You can install the dummy-backend with `npm i --global bookmonkey-api`
 2. By running `bookmonkey-api` you should be see an output lik e`JSON Server is running on port 4730`
 3. By visiting `http://localhost:4730/` in your Browsder you should be able to see a swagger UI. The books are available at `http://localhost:4730/books`
-4. You can provide the `HttpClient` by calling `importProvidersFrom` inside the `bootdtrap Function`
+4. You can provide the `HttpClient` by calling `provideHttpClient()` inside the `bootdtrap Function`
 
 ## Hints
 
