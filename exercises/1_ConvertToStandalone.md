@@ -2,7 +2,7 @@
 1. Convert the Components `BookDetailComponent, BookListComponent, BookNewComponent, BookCardComponent` to standalone by adding the attribute `standalone` to the Components Decorator.
 2. Import all dependencies of the components inside the `imports`-Array of their Components Decorator
 3. Remove these Components from the `declarations`-Array inside the `BookModule` and add them to the `imports` Array.
-4. The Application should compile properly: `nom start`
+4. The Application should compile properly: `npm start`
 
 Note that you also can remove many Modules and Dependencies from the `BookModule` itself
 
