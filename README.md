@@ -14,4 +14,4 @@ Dieser Workshop benutzt ein Beispielprojekt für sämtliche Übungsaufgaben. Die
 
 ## Exercises
 
-Sämtliche Aufgaben und Übungen des Workshops können Sie [HIER](https://github.com/martinakraus/angular-days-standalone-2023/tree/main/exercises) finden.
+Sämtliche Aufgaben und Übungen des Workshops werden innerhalb der Session mit den Teilnehmenden geteilt.
